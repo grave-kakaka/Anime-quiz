@@ -1,0 +1,84 @@
+name: 投稿题目
+description: 提交一道选择题，格式统一，通过后会自动变成 PR
+title: "[投稿] "
+labels: ["题目投稿"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢投稿！照着下面填就行，不用懂 Git 也不用懂 JSON。
+
+        提交之后会有人工审核，通过的话你这道题就会被合并进题库。
+        注意：**请不要上传有版权的图片、音乐、视频**，题目里也尽量别引用。
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 题干
+      description: 题目本身。可以包含标点、引号、书名号。
+      placeholder: 这段音乐出自哪部作品？
+    validations:
+      required: true
+
+  - type: input
+    id: option_a
+    attributes:
+      label: 选项 A
+      placeholder: 进击的巨人
+    validations:
+      required: true
+
+  - type: input
+    id: option_b
+    attributes:
+      label: 选项 B
+      placeholder: 鬼灭之刃
+    validations:
+      required: true
+
+  - type: input
+    id: option_c
+    attributes:
+      label: 选项 C
+      placeholder: 咒术回战
+    validations:
+      required: true
+
+  - type: input
+    id: option_d
+    attributes:
+      label: 选项 D
+      placeholder: 电锯人
+    validations:
+      required: true
+
+  - type: dropdown
+    id: answer
+    attributes:
+      label: 正确答案
+      description: 上面四项里哪个是对的
+      options:
+        - A
+        - B
+        - C
+        - D
+    validations:
+      required: true
+
+  - type: textarea
+    id: explain
+    attributes:
+      label: 解析（可选）
+      description: 答题揭晓之后会显示这句话。写点吐槽也行。
+      placeholder: 出自 2013 年的第一季，OP 是……
+    validations:
+      required: false
+
+  - type: input
+    id: category
+    attributes:
+      label: 分类（可选）
+      description: 会在放映时显示在左上角，方便按批出题
+      placeholder: 声优题 / 名场面 / 2020年代
+    validations:
+      required: false

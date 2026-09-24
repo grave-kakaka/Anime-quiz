@@ -132,6 +132,11 @@
     playMedia();
   }
 
+  // 媒体地址: 本地相对路径要补上前缀, http(s) 外链原样用
+  function mediaURL(src) {
+    return /^https?:\/\//i.test(src) ? src : '/' + src;
+  }
+
   function missingNote(src) {
     var d = document.createElement('div');
     d.className = 'missing';
@@ -153,7 +158,7 @@
       img.onerror = function () {
         if (img.parentNode) { img.parentNode.replaceChild(missingNote(m.src), img); }
       };
-      img.src = '/' + m.src;
+      img.src = mediaURL(m.src);
       box.appendChild(img);
       clip.kind = 'image';
       return;
@@ -164,11 +169,11 @@
       v.controls = true;
       v.playsInline = true;
       v.preload = 'auto';
-      if (m.poster) { v.poster = '/' + m.poster; }
+      if (m.poster) { v.poster = mediaURL(m.poster); }
       v.onerror = function () {
         if (v.parentNode) { v.parentNode.replaceChild(missingNote(m.src), v); }
       };
-      v.src = '/' + m.src;
+      v.src = mediaURL(m.src);
       box.appendChild(v);
       bindClip(v, m.start, m.end);
       return;
@@ -188,7 +193,7 @@
     a.onerror = function () {
       if (bar.parentNode) { bar.parentNode.replaceChild(missingNote(m.src), bar); }
     };
-    a.src = '/' + m.src;
+    a.src = mediaURL(m.src);
     bindClip(a, m.start, m.end);
     $('mplay').addEventListener('click', toggleMedia);
   }

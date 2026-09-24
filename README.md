@@ -150,12 +150,25 @@ docs/                  README 用的截图
 
 ## 投稿题目
 
-欢迎往这里加题。两种方式：
+欢迎往这里加题。最省事的方式是**开一个 Issue**：
 
-- **会 Git 的**：fork → 往 `data/questions.json` 里加题目（保持字段完整）→ 提 PR
-- **不想碰 Git 的**：开个 Issue，把题干、四个选项、正确答案、解析贴上，我来转
+1. 打开 [Issues → New issue](../../issues/new/choose)，选「投稿题目」
+2. 出来的是一个可视化表单：题干、选项 A–D、正确答案（下拉选）、解析、分类
+3. 填完提交
 
-媒体文件请**不要**直接提交到仓库（见下面版权那节），用外链 `src` 更合适。
+提交之后，仓库的 GitHub Action 会自动把它转成 `data/questions.json` 里的一道题，
+并开一个 Pull Request，同时在 Issue 里回复 PR 链接。维护者审核一下、点个 merge 就进库了。
+
+整个流程不需要投稿人懂 Git，也不需要懂 JSON。
+
+如果你会 Git，也可以直接 fork 改 `data/questions.json` 提 PR，效果一样。
+
+**媒体文件请不要提交到仓库**（见下面版权那节）。题目里要用图片的话，
+`media.src` 写外链地址（`https://` 开头）也能播。
+
+> 首次启用自动转换前，记得在仓库的
+> Settings → Actions → General → Workflow permissions
+> 里选上 **Read and write permissions**，否则那个 Action 没权限开 PR。
 
 ## 版权提醒（重要）
 

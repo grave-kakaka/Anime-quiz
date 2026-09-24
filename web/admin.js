@@ -25,6 +25,18 @@
       .replace(/"/g, '&quot;');
   }
 
+  // 本地相对路径要补前缀, http(s) 外链原样用
+  function mediaURL(src) {
+    return /^https?:\/\//i.test(src) ? src : '/' + src;
+  }
+
+  function guessKind(url) {
+    var ext = (url.split('?')[0].split('.').pop() || '').toLowerCase();
+    if (['mp3', 'wav', 'm4a', 'ogg', 'aac', 'flac', 'opus'].indexOf(ext) >= 0) { return 'audio'; }
+    if (['mp4', 'webm', 'mov', 'mkv', 'm4v'].indexOf(ext) >= 0) { return 'video'; }
+    return 'image';
+  }
+
   function kindLabel(kind) {
     return kind === 'audio' ? '音频' : kind === 'video' ? '视频' : '图片';
   }
@@ -136,14 +148,14 @@
 
     if (m.kind === 'image') {
       wrap.innerHTML = head +
-        '<img src="/' + m.path + '">' +
+        '<img src="' + mediaURL(m.path) + '">' +
         '<div class="clipctl"><span>初始模糊（猜图用，0 表示清晰）</span>' +
         '<input type="number" id="blur" min="0" max="40" step="1" value="' + state.blur + '">' +
         '<span>px</span></div>';
     } else {
       var player = m.kind === 'audio'
-        ? '<audio id="player" src="/' + m.path + '" controls preload="metadata"></audio>'
-        : '<video id="player" src="/' + m.path + '" controls preload="metadata"></video>';
+        ? '<audio id="player" src="' + mediaURL(m.path) + '" controls preload="metadata"></audio>'
+        : '<video id="player" src="' + mediaURL(m.path) + '" controls preload="metadata"></video>';
       wrap.innerHTML = head + player +
         '<div class="clipctl">' +
         '<button class="btn sm" id="mark-start" type="button">设为起点</button>' +
@@ -222,6 +234,7 @@
   // ------------------------------------------------------------------ 表单
 
   function resetForm() {
+    $('mediaurl').value = '';
     state.editId = null;
     state.media = null;
     state.start = 0;
@@ -424,6 +437,24 @@
     if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) {
       upload(e.dataTransfer.files[0]);
     }
+  });
+
+  // 直接粘外链, 不用先把文件下载下来
+  $('mediaurl').addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter') { return; }
+    e.preventDefault();
+    var url = this.value.trim();
+    if (!url) { return; }
+    if (!/^https?:\/\//i.test(url)) {
+      return toast('链接要以 http:// 或 https:// 开头', true);
+    }
+    state.media = { path: url, kind: guessKind(url), name: url.split('/').pop().split('?')[0] };
+    state.start = 0;
+    state.end = 0;
+    state.blur = 0;
+    renderPreview();
+    this.value = '';
+    toast('已设为这道题的媒体');
   });
 
   $('save').addEventListener('click', save);
