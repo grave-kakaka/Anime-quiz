@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>题库管理</title>
+<link rel="stylesheet" href="/style.css">
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('aq-theme') === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  } catch (e) { /* 隐私模式下忽略 */ }
+})();
+</script>
+</head>
+<body>
+
+<div class="admin">
+  <header>
+    <h1>题库管理</h1>
+    <p>填一道题，把文件拖进来，点保存。题目会存进 data/questions.json。</p>
+  </header>
+
+  <div class="cols">
+
+    <div class="panel">
+      <h2 id="form-title">新增题目</h2>
+
+      <div class="field">
+        <label for="question">题干</label>
+        <textarea id="question" rows="3" placeholder="这段音乐出自哪部作品？"></textarea>
+      </div>
+
+      <div class="field">
+        <label>选项</label>
+        <div id="opts"></div>
+        <div class="sub">点选项左边的圆圈，把那一项标成正确答案。留空的行会被忽略。</div>
+      </div>
+
+      <div class="field">
+        <label>媒体（可选）</label>
+        <div class="drop" id="drop">
+          <div id="dropmsg">把图片 / 音频 / 视频拖到这里，或点击选择文件</div>
+          <div class="sub">图片 jpg png gif webp · 音频 mp3 wav m4a ogg · 视频 mp4 webm mov</div>
+          <input type="file" id="file" accept="image/*,audio/*,video/*" hidden>
+        </div>
+        <div id="preview"></div>
+      </div>
+
+      <div class="field">
+        <label for="explain">解析（可选）</label>
+        <textarea id="explain" rows="2" placeholder="揭晓答案后显示在题目下方"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="category">分类（可选）</label>
+        <input type="text" id="category" placeholder="例如：名场面 / 2000年代 / OP 猜番">
+      </div>
+
+      <div class="form-actions">
+        <button class="btn primary" id="save" type="button">保存</button>
+        <button class="btn ghost" id="reset" type="button">清空表单</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>题目列表 <span id="count"></span></h2>
+      <div class="qlist" id="qlist"></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="/admin.js"></script>
+</body>
+</html>

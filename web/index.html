@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>动漫答题</title>
+<link rel="stylesheet" href="/style.css">
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('aq-theme') === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  } catch (e) { /* 隐私模式下忽略 */ }
+})();
+</script>
+</head>
+<body>
+
+<div class="entry">
+  <h1>动漫答题</h1>
+  <p class="lede">本地放映工具。题目和媒体都放在这台电脑上。</p>
+
+  <div class="menu">
+    <a class="menu-item" href="/play">
+      <span class="name">开始答题</span>
+      <span class="desc">全屏放映，空格翻题</span>
+      <span class="arrow">&#8594;</span>
+    </a>
+    <a class="menu-item" href="/admin">
+      <span class="name">题库管理</span>
+      <span class="desc">加题、传图片音频视频、调顺序</span>
+      <span class="arrow">&#8594;</span>
+    </a>
+  </div>
+
+  <div class="meta">
+    <div><b>放映页</b> /play</div>
+    <div><b>上传页</b> /admin</div>
+    <div><b>题库文件</b> data/questions.json（可以直接备份或拷贝）</div>
+    <div><b>媒体文件夹</b> media/</div>
+  </div>
+
+  <div class="footer">
+    <span>配色</span>
+    <button id="theme-toggle" type="button">切换到深色</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var btn = document.getElementById('theme-toggle');
+  function label() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    btn.textContent = dark ? '切换到浅色' : '切换到深色';
+  }
+  btn.addEventListener('click', function () {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (dark) {
+      document.documentElement.removeAttribute('data-theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    try { localStorage.setItem('aq-theme', dark ? 'light' : 'dark'); } catch (e) {}
+    label();
+  });
+  label();
+})();
+</script>
+
+</body>
+</html>

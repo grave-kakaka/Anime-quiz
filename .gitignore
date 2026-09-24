@@ -1,0 +1,20 @@
+# 媒体文件：有版权风险，而且体积大，不要提交
+media/*
+!media/.gitkeep
+
+# 题库的临时文件和备份
+data/questions.json.tmp
+data/questions.json.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

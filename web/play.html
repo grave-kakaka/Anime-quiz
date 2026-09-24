@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>答题放映</title>
+<link rel="stylesheet" href="/style.css">
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('aq-theme') === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  } catch (e) { /* 隐私模式下忽略 */ }
+})();
+</script>
+</head>
+<body class="play">
+
+<div class="topline"><i id="topline"></i></div>
+
+<div id="stage" class="hidden">
+  <div class="topbar">
+    <span class="progress" id="progress">0 / 0</span>
+    <span class="category" id="category"></span>
+    <span class="spacer"></span>
+    <div class="score hidden" id="score">
+      <span id="slot-a" class="slot"><i id="label-a">A</i><span class="who" id="who-a">0</span></span>
+      <span class="sep">:</span>
+      <span id="slot-b" class="slot"><i id="label-b">B</i><span class="who" id="who-b">0</span></span>
+    </div>
+  </div>
+
+  <div class="media" id="media"></div>
+
+  <div class="qwrap">
+    <h1 class="question" id="question"></h1>
+    <div class="explain" id="explain"></div>
+    <ul class="options" id="options"></ul>
+  </div>
+
+  <div class="hintbar">
+    <span id="hints"></span>
+    <span class="spacer"></span>
+    <span class="turn" id="turn"></span>
+    <button class="btn primary hidden" id="next" type="button">下一题 &#8594;</button>
+  </div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="card" id="card"></div>
+</div>
+
+<script src="/play.js"></script>
+</body>
+</html>

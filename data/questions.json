@@ -1,0 +1,530 @@
+[
+  {
+    "id": "q6aef8a940eee",
+    "type": "choice",
+    "category": "第1页",
+    "difficulty": 1,
+    "question": "以下动画中没有出现过初音未来的是哪一部？",
+    "media": null,
+    "options": [
+      "幸运星",
+      "邪神与厨二病少女",
+      "笨蛋测验召唤兽",
+      "BangDream! Ave Mujica"
+    ],
+    "answer": 3,
+    "explain": "可是初音真的“未来”啊"
+  },
+  {
+    "id": "q0a57c6325f2f",
+    "type": "choice",
+    "category": "第1页",
+    "difficulty": 1,
+    "question": "学校天台这一场景在很多动漫游戏里都有出现，请问以下哪句台词不是在天台上说出的",
+    "media": null,
+    "options": [
+      "我…被甩了啊…（败犬）",
+      "所以说啊，感觉就像和喝了很烈的酒一样（少歌剧场版）",
+      "没有人受伤的世界完成了。（春物）",
+      "果然，你果然在说谎啊，根本就没“人”在里面。（日在校园）"
+    ],
+    "answer": 1,
+    "explain": "皆杀的revue，在行驶的列车上"
+  },
+  {
+    "id": "q2a35f911887a",
+    "type": "choice",
+    "category": "第1页",
+    "difficulty": 1,
+    "question": "以下哪个不是以同人为主的展会",
+    "media": null,
+    "options": [
+      "CP",
+      "CJ",
+      "CM",
+      "CC"
+    ],
+    "answer": 1,
+    "explain": "CJ是数码展览会，不以二次元为主"
+  },
+  {
+    "id": "q6bc35e3115b1",
+    "type": "choice",
+    "category": "第1页",
+    "difficulty": 1,
+    "question": "去年的《物语》怪物季依然稳定发挥，那么我们可爱的小忍的标志性笑声“咔咔”是学了谁呢？（）（突击检查，小忍全名叫什么！）",
+    "media": null,
+    "options": [
+      "殊杀尊主",
+      "初代怪异杀手",
+      "怪异杀手",
+      "忍野咩咩"
+    ],
+    "answer": 0,
+    "explain": "（现在知道小忍中二病哪来的了）姬丝秀忒·雅塞劳拉·莉昂·刃下心"
+  },
+  {
+    "id": "qf7a305494d74",
+    "type": "choice",
+    "category": "第1页",
+    "difficulty": 1,
+    "question": "“拉邦结派”一语形象地说明了Lovelive!和BanG Dream等企划粉丝群体和声优的重合性。以下在BanG Dream中参与配音的声优中，谁没有在Lovelive!系列中配音？",
+    "media": null,
+    "options": [
+      "羊宫妃那",
+      "进藤天音",
+      "樱川惠",
+      "林鼓子"
+    ],
+    "answer": 0,
+    "explain": "A：邦邦 高松灯（MyGO!!!!!），没配过 Lovelive　／　B：邦邦 仓田真白，拉拉 桂城泉（莲之空）　／　C：邦邦 亚子，拉拉 绮罗翼（A-RISE）　／　D：邦邦 椎名立希，拉拉 优木雪莱（虹咲）"
+  },
+  {
+    "id": "q250c511a2cff",
+    "type": "choice",
+    "category": "第2页",
+    "difficulty": 1,
+    "question": "以下哪位角色不是真·异色瞳？",
+    "media": null,
+    "options": [
+      "时崎狂三《约会大作战》",
+      "小鸟游六花《中二病也要谈恋爱！》",
+      "翠星石《蔷薇少女》",
+      "要乐奈《It’s MYGO！！！》"
+    ],
+    "answer": 1,
+    "explain": "邪王真眼！！！"
+  },
+  {
+    "id": "q661bfdb6f464",
+    "type": "choice",
+    "category": "第2页",
+    "difficulty": 1,
+    "question": "赛马娘第二季的大成功又俘获了一大批cygames的“牢玩家”，请问以下赛马娘中获胜G1赛事最多的是哪一位？",
+    "media": null,
+    "options": [
+      "好歌剧",
+      "北部玄驹",
+      "杏目",
+      "鲁道夫象征"
+    ],
+    "answer": 2,
+    "explain": "G1九胜闹着玩呢，其他都是7胜"
+  },
+  {
+    "id": "qc5f7f84ec496",
+    "type": "choice",
+    "category": "第2页",
+    "difficulty": 1,
+    "question": "被称为“名作之壁”的是以下哪部作品？",
+    "media": null,
+    "options": [
+      "《Infinity Stratos》",
+      "《新世纪福音战士》",
+      "《魔法少女小圆》",
+      "《化物语》"
+    ],
+    "answer": 0,
+    "explain": "IS原作小说烂的根本无法阅读，但BD销量意外的高，多用于调侃BD销量惨淡的优作"
+  },
+  {
+    "id": "q034a90b1e8b0",
+    "type": "choice",
+    "category": "第2页",
+    "difficulty": 1,
+    "question": "苍崎姐妹作为型月中的客串王，那么我们的屑姐姐苍崎橙子没有在以下哪部作品中出现呢？",
+    "media": null,
+    "options": [
+      "《魔法使之夜》",
+      "《月姬》",
+      "《君主·埃尔梅罗二世事件簿》",
+      "《Fate/stay night Heaven’s Feel》"
+    ],
+    "answer": 1,
+    "explain": "月姬里是究极美少女青子的登场"
+  },
+  {
+    "id": "q95f43a32a6ef",
+    "type": "choice",
+    "category": "第2页",
+    "difficulty": 1,
+    "question": "社团作为校园动画不可缺少的一部分，以下作品中社团对应不正确的是",
+    "media": null,
+    "options": [
+      "古典部《冰菓》",
+      "偶像研究部《LoveLIve》",
+      "FFF团《凉宫春日的忧郁》",
+      "侍奉部《春物》"
+    ],
+    "answer": 2,
+    "explain": "SOS团嘛，FFF团是不是老了"
+  },
+  {
+    "id": "qfd13f0d33268",
+    "type": "choice",
+    "category": "第3页",
+    "difficulty": 1,
+    "question": "以下哪部作品不是其监督的 TV 动画处女作",
+    "media": null,
+    "options": [
+      "若林信《奇蛋物语》",
+      "御所园翔太《咒术回战 第二季》",
+      "斋藤圭一郎《葬送的芙莉莲》",
+      "中山龙《电锯人》"
+    ],
+    "answer": 2,
+    "explain": "孤独摇滚是处女作，虽然芙莉莲确实是先谈的，但第一次没成。中山龙先出来挨打"
+  },
+  {
+    "id": "q316385a7a23a",
+    "type": "choice",
+    "category": "第3页",
+    "difficulty": 1,
+    "question": "“话说，我想说件很厉害的事…”这是哪部动画的主角喜欢说的台词",
+    "media": null,
+    "options": [
+      "男子高中生的日常",
+      "女子高中生的虚度日常",
+      "日常",
+      "笨女孩"
+    ],
+    "answer": 1,
+    "explain": "名场面有点多了..."
+  },
+  {
+    "id": "qdcfb8607e67f",
+    "type": "choice",
+    "category": "第3页",
+    "difficulty": 1,
+    "question": "请问明日方舟中矿石病的病因是什么？",
+    "media": null,
+    "options": [
+      "源石",
+      "原石",
+      "圆石",
+      "理智合剂"
+    ],
+    "answer": 0,
+    "explain": "二游专家请出场"
+  },
+  {
+    "id": "q29e8bfa9463d",
+    "type": "choice",
+    "category": "第3页",
+    "difficulty": 1,
+    "question": "下列哪个动物与《少女歌剧》中长颈鹿的声优相同",
+    "media": null,
+    "options": [
+      "《实况主的逃脱游戏》羊驼",
+      "《间谍过家家》邦德",
+      "《猪肝记得煮熟再吃》猪",
+      "《关于我转生变成史莱姆这件事》 岚牙"
+    ],
+    "answer": 0,
+    "explain": "津叔就算没有声优耳也能认出来了，C是松冈啊（变成猪都有桃花运，太可怕了）"
+  },
+  {
+    "id": "q229db2caf6cf",
+    "type": "choice",
+    "category": "第3页",
+    "difficulty": 1,
+    "question": "在下列作品中，最后终于赢了的是",
+    "media": null,
+    "options": [
+      "小野寺小咲《伪恋》",
+      "空银子 《龙王的工作》",
+      "中野五月《五等分的花嫁》",
+      "古桥文乃《我们无法一起学习》"
+    ],
+    "answer": 1,
+    "explain": "毁灭吧这个败犬的世界"
+  },
+  {
+    "id": "q410ae8121ecb",
+    "type": "choice",
+    "category": "第4页",
+    "difficulty": 1,
+    "question": "以下不属于钉宫四萌的是？",
+    "media": null,
+    "options": [
+      "亚里亚",
+      "夏娜",
+      "逢坂大河",
+      "露易丝"
+    ],
+    "answer": 0,
+    "explain": "应该是旋风管家的三千院凪，亚里亚是水树奈奈"
+  },
+  {
+    "id": "q2620f6ddbc17",
+    "type": "choice",
+    "category": "第4页",
+    "difficulty": 1,
+    "question": "《摇曳露营》第三季定档2024年4月，制作公司的更换不免使得系列作品的粉丝们对新一季动画质量产生担忧。以下四个换制作公司次数最多的是？",
+    "media": null,
+    "options": [
+      "《约会大作战》（1-5季）",
+      "《南家三姐妹》（1-4季）",
+      "《夏日友人帐》（1-7季）",
+      "《赛马娘》（1-3季）"
+    ],
+    "answer": 0,
+    "explain": "A：约会大作战，多少带点诅咒，第一季AIC PLUS+做完就破产啦，第二季Production IMS做完也破产啦，第三季J.C.STAFF出来挨打，四五季的GeekToys就...也挺难吧 B：南家三姐妹，第一季是童梦（巅峰），二三季Aslead，第四季feel C:夏日友人帐，一到四季都是Brain’s Base，五六季和剧场版都是朱夏 D：一二季都是P.A.WORKS,第三季是STUDIO KAI（暴死原因之一），巅峰之路和新时代之扉都是Cygames Pictures了（作画最好的两部，Cy没白挖人），但其实如果算上赛马娘四格（DMM.futureworks）就也是四个制作公司了"
+  },
+  {
+    "id": "qd48d807ffdbe",
+    "type": "choice",
+    "category": "第4页",
+    "difficulty": 1,
+    "question": "《进击的巨人》中三座外墙（1）希娜之墙（2）玛利亚之墙（3）罗塞之墙的顺序（由外到内）是",
+    "media": null,
+    "options": [
+      "（1）（2）（3）",
+      "（1）（3）（2）",
+      "（2）（1）（3）",
+      "（2）（3）（1）"
+    ],
+    "answer": 3,
+    "explain": ""
+  },
+  {
+    "id": "q27a448897047",
+    "type": "choice",
+    "category": "第4页",
+    "difficulty": 1,
+    "question": "KEY 社的三部曲，Air，Kanon，CLANNAD，曾被两家动画公司全部改编，这两家公司分别是什么？",
+    "media": null,
+    "options": [
+      "京都动画、日升动画",
+      "日升动画、J.C.Staff",
+      "J.C.Staff、东映动画",
+      "东映动画、京都动画"
+    ],
+    "answer": 3,
+    "explain": "京都更出名点，东映只做过air的剧场版和Kanon13集TV动画"
+  },
+  {
+    "id": "q6e54ed92d363",
+    "type": "choice",
+    "category": "第4页",
+    "difficulty": 1,
+    "question": "在“BanG Dream！”中，每个少女乐队都会有乐队成员写给对方的“情歌”，请问以下哪首不是该乐队的“情歌”？",
+    "media": null,
+    "options": [
+      "礎の花冠（Roselia）",
+      "ゆら・ゆらRing-Dong-Dance（Pastel＊Palettes）",
+      "Imprisoned XII（Ave Mujica）",
+      "Takin’ my Heart（RAISE A SUILEN）"
+    ],
+    "answer": 3,
+    "explain": "A：ykls B：彩千圣 C：祥子，让小姨抱抱祥子.................. D：卡牌战斗先导者ed"
+  },
+  {
+    "id": "qd2f6981d63bb",
+    "type": "choice",
+    "category": "第5页",
+    "difficulty": 1,
+    "question": "请选出下面 Vocaloid 曲目中，本家调教所演唱的虚拟歌姬与其不同的一首：",
+    "media": null,
+    "options": [
+      "《六兆年と一夜物語》（六兆年零一夜物语）",
+      "《アスノヨゾラ哨戒班》（明日的夜空哨戒班）",
+      "《DAYBREAK FRONTLINE》（黎明前线）",
+      "《ウミユリ海底譚》（海百合海底谭）"
+    ],
+    "answer": 3,
+    "explain": "前三首都是IA的，海百合海底谭是miku的"
+  },
+  {
+    "id": "qd73123539489",
+    "type": "choice",
+    "category": "第5页",
+    "difficulty": 1,
+    "question": "三大同人奇迹不包括？",
+    "media": null,
+    "options": [
+      "寒蝉鸣泣之时",
+      "Fate Stay Night",
+      "东方Project",
+      "月姬"
+    ],
+    "answer": 1,
+    "explain": ""
+  },
+  {
+    "id": "qbb7a2bd5b270",
+    "type": "choice",
+    "category": "第5页",
+    "difficulty": 1,
+    "question": "《可塑性记忆》中机器人（Giftia）的寿命？",
+    "media": null,
+    "options": [
+      "82000小时",
+      "81920小时",
+      "81680小时",
+      "80000小时"
+    ],
+    "answer": 1,
+    "explain": "9年4个月"
+  },
+  {
+    "id": "q0379c671b230",
+    "type": "choice",
+    "category": "第5页",
+    "difficulty": 1,
+    "question": "花田老贼在去年给了大家一坨，那么他没有担任过下列哪部作品的系列构成？",
+    "media": null,
+    "options": [
+      "《命运石之门》",
+      "《Re: 从零开始的异世界生活》",
+      "《NO GAME NO LIFE 游戏人生》",
+      "《舰队Collection》"
+    ],
+    "answer": 1,
+    "explain": "Re0是横谷昌宏"
+  },
+  {
+    "id": "q1d917f22dff9",
+    "type": "choice",
+    "category": "第5页",
+    "difficulty": 1,
+    "question": "白色相簿2作为享誉盛名的经典作品，在剧本中丸户老贼可没少恶心玩家（雾）请问下面选项中最让人ptsd的恶趣味选项是",
+    "media": null,
+    "options": [
+      "我爱着雪菜",
+      "我无法对和纱说谎",
+      "去音乐会",
+      "老实的说出和纱的事情"
+    ],
+    "answer": 2,
+    "explain": "问问你社白学家"
+  },
+  {
+    "id": "q1462a6d2145c",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "芳文社以招牌的空气系轻百合作品闻名于世。然而，总有一些作品会因为与这一印象不符而被吐槽“这不芳文！”下列作品中，原作在芳文社旗下连载，却以男女角色为中心开展剧情的作品是",
+    "media": null,
+    "options": [
+      "街角魔族",
+      "式守同学不只可爱而已",
+      "一起一起这里那里",
+      "摇曳百合"
+    ],
+    "answer": 2,
+    "explain": "A很芳文。B是讲谈社的。D很芳文但是是百合姬（一迅社）的。"
+  },
+  {
+    "id": "qee3a666745c2",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "自2016年《你的名字》开始，新海诚每三年发布一部长篇动画电影作品，这被称为新海诚的“三年之约”。在业界，也有一些其它作者拥有“X年之约”。如果麻枝准自《Angel Beats!》以来的“X年之约”没有失效，那么下一部由他担任原作与脚本的原创动画理应播出于",
+    "media": null,
+    "options": [
+      "2024年",
+      "2025年",
+      "2026年",
+      "2027年"
+    ],
+    "answer": 1,
+    "explain": "他的上一部作品叫《成神之日》。别回来了麻子，好好做红烧天堂吧。"
+  },
+  {
+    "id": "q85d89e1c723f",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "10月份即将播出的TV动画《脑洞学生会》承载着无数人对于青春期人际关系的美好幻想。下列选项中，哪个不是以学生会为舞台开展故事的动画作品？",
+    "media": null,
+    "options": [
+      "妄想学生会",
+      "学生会的一己之见",
+      "我老婆是学生会长",
+      "七次元学生会"
+    ],
+    "answer": 3,
+    "explain": "哪个管人痴出的题。"
+  },
+  {
+    "id": "qdf5420cca46d",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "许多日本新世代歌手/作曲家都曾有作为VOCALOID创作者（P主）的经历。因此，VOCALOID界又被戏称为J-POP的“黄埔军校”。下列作品中，其主题曲的作曲家没有作为知名P主的经历的是",
+    "media": null,
+    "options": [
+      "再见菈菈",
+      "葬送的芙莉莲",
+      "超时空辉夜姬",
+      "机动战士高达 GQuuuuuuX"
+    ],
+    "answer": 0,
+    "explain": "B集齐了Ayase和n-buna。C的主题曲来自现役P主aqu3ra。D有米奇律师。"
+  },
+  {
+    "id": "q74440799a4ae",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "高木同学，古见同学，久保同学，千岁同学……不禁让人感叹哪来这么多“同学”啊。下列作品中，明明标题中有“同学”，舞台却很少放在学校的是",
+    "media": null,
+    "options": [
+      "测不准的阿波连同学",
+      "不要欺负我，长瀞同学",
+      "不时轻声地以俄语遮羞的邻座艾莉同学",
+      "爱吃拉面的小泉同学"
+    ],
+    "answer": 3,
+    "explain": "D的大部分时间都在泡拉面店。给我上学去啊。"
+  },
+  {
+    "id": "q7eb03bf867c7",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "随着VTuber这一概念逐渐变得广为人知，越来越多的日本动画中开始出现VTuber相关元素。不过，由于动画角色本身就已经是“虚拟角色”，如作品中没有写明，有时会难以分辨角色从设定上到底是Vtuber还是普通的视频投稿者。下列作品中，没有任何一名主要角色的身份设定是VTuber的是",
+    "media": null,
+    "options": [
+      "深夜重拳",
+      "夜晚的水母不会游泳",
+      "BanG Dream! YUME∞MITA",
+      "常轨脱离Creative"
+    ],
+    "answer": 0,
+    "explain": "B的渡濑季初、C的梦团全员、D的锦明日海都是身份明确的Vtuber。怎么又有管人痴。"
+  },
+  {
+    "id": "q81d72bb8ebfd",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "由于套路作层出不穷，异世界轻改在如今几乎成为了“厕纸”的同义词。鉴于这些轻小说的前身往往是连载于“成为小说家吧（小説家になろう）”上的网文，它们也被称作“なろう系”。下列作品中，原作没有在“成为小说家吧”上连载过的是",
+    "media": null,
+    "options": [
+      "魔法科高中的劣等生",
+      "带着智能手机闯荡异世界",
+      "杖与剑的魔剑谭",
+      "冰剑的魔术师将要统一世界"
+    ],
+    "answer": 2,
+    "explain": "C的原作是漫画。剩下三作都是实打实的なろう系，恐怖如斯。"
+  },
+  {
+    "id": "q397938fff469",
+    "type": "choice",
+    "category": "其一",
+    "difficulty": 1,
+    "question": "福尔摩斯×华生的人物模型非常好用，即使是在动画里也是如此。把福尔摩斯的角色交给美少女来担任，也是大家喜闻乐见的套路，不如说如今男性的福尔摩斯反倒少见了。下列作品中，难得地由男性来担任侦探角色的是",
+    "media": null,
+    "options": [
+      "GOSICK",
+      "小市民",
+      "虚构推理",
+      "神的记事本"
+    ],
+    "answer": 1,
+    "explain": "二次元推理，你崛起吧……"
+  }
+]
